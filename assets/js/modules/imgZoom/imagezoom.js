@@ -4,7 +4,7 @@ import { move } from '../imgZoom/move.js'
 import { userEvents } from '../userEvents/userEvents.js'
 
 export let image = select('.image__foto')
-let zoomArea = select('.zoom-area')
+export let zoomArea = select('.zoom-area')
 
 export function imagezoom() {
     image.addEventListener('mouseover', initZoom, { once: true })
